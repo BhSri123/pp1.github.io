@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,200&display=swap');
+.left{
+  display:inline-block;
+  position: absolute;
+  top:20px;
+  left:50px;
+  color: #abc;
+}
+.left div{
+  text-align: center;
+  line-height: 0px;
+  font-size: 15px;
+  color: #fa2;
+}
+.mid{
+  display:block;
+  width:33%;
+  margin:20px auto;
+  border: 2px solid #f00;
+}
+.right{
+    display:inline-block;
+    position: absolute;
+    top:20px;
+    right: 25px;
+
+}
+.navbar li{
+  display:inline-block;
+}
+.navbar li a{
+  color:#f0f;
+  text-decoration: none;
+  padding:1px 8px;
+}
+.navbar li a:hover,.navbar li a.active{
+  text-decoration: underline;
+  color: #00f;
+}
+.left img{
+  width: 80px;
+  filter: invert(100%);
+}
+
+.btn {
+  font-family: 'Arima',sans-serif;
+  margin: 0px 12px;
+  padding:4px 14px;
+  border: 2px solid #2a4;
+  border-radius: 10px;
+  background-color: #000;
+  color: #fff;
+}
+.btn:hover{
+  background-color: #aaa;
+  cursor: pointer;
+}
+.container{
+  color: #321;
+  margin:27px 58px;
+  border: 2px solid #000;
+  padding: 36px 36px;
+  width: 33%;
+  border-radius: 20px;
+}
+.form-group input{
+  display: block;
+  width: 210px;
+  padding: 4px;
+  border: 2px solid #226;
+  margin: 11px auto;
+  border-radius: 20px;
+  font-family: 'Arima',sans-serif;
+
+}
+.container h3{
+  text-align: center;
+}
+.container button{
+  text-align: center;
+  display: block;
+  width: 23%;
+  margin: 2px auto;
+}
